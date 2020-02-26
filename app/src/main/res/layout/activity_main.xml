@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/box_twentyone_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/box_twentytwo_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_sixteen_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_twentytwo_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/box_twentythree_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_twentyone_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_seventeen_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_twentythree_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/box_twentyfour_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_twentytwo_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_eighteen_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_twentyfive_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_twentyfour_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_twenty_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_twentyfour_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/box_twentyfive_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_twentythree_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_nineteen_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_sixteen_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_twentyone_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_seventeen_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_eleven_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_seventeen_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_twentytwo_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_eighteen_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_sixteen_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_twelve_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_eighteen_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_twentythree_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_nineteen_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_seventeen_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_thirteen_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_twenty_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_twentyfive_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_nineteen_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_fifteen_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_nineteen_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_twentyfour_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_twenty_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_eighteen_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_fourteen_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_eleven_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_sixteen_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_twelve_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_six_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_twelve_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_seventeen_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_thirteen_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_eleven_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_seven_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_thirteen_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_eighteen_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_fourteen_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_twelve_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_eight_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_fifteen_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_twenty_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_fourteen_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_ten_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_fourteen_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_nineteen_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_fifteen_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_thirteen_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_nine_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_six_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_eleven_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_seven_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_one_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_seven_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_twelve_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_eight_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_six_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_two_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_eight_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_thirteen_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_nine_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_seven_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_three_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_ten_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_fifteen_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_nine_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_five_text"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_nine_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_fourteen_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_ten_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_eight_text"
+        app:layout_constraintTop_toBottomOf="@+id/box_four_text"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/name_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="@string/what_is_your_name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <Button
+        android:id="@+id/submit_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="#0C29E9"
+        android:fontFamily="@font/roboto"
+        android:text="@string/submit"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_edit"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_one_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="146dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_six_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_two_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/name_edit"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_two_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="146dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_seven_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_three_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_one_text"
+        app:layout_constraintTop_toTopOf="@+id/name_edit"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_three_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="146dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_eight_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_four_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_two_text"
+        app:layout_constraintTop_toTopOf="@+id/name_edit"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_four_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="146dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_nine_text"
+        app:layout_constraintEnd_toStartOf="@+id/box_five_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_three_text"
+        app:layout_constraintTop_toTopOf="@+id/name_edit"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/box_five_text"
+        style="@style/yellowBox"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/lightsOn"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/box_ten_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/box_four_text"
+        app:layout_constraintTop_toTopOf="@+id/name_edit"
+        tools:visibility="visible" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="72dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="@string/count"
+        android:textColor="@color/colorCount"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_twentythree_text"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/retry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#0C29E9"
+        android:text="RETRY"
+        android:textColor="#F7EDED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/count" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

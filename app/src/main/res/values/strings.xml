@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">exer3_sibor_b4l</string>
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="submit">SUBMIT</string>
+    <string name="lightsOn"></string>
+    <string name="lightsOff"></string>
+    <string name="count">0</string>
+
+</resources>
